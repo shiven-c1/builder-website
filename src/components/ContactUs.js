@@ -7,16 +7,21 @@ export default function ContactUs() {
       <h2>Contact Us</h2>
       <div className="contactus-details">
         <div>
-          <strong>Phone:</strong> <a href="tel:8652463737">8652463737</a>
+          <strong>Phone:</strong> <a href="tel:8652463737">09371110000</a>
         </div>
         <div>
           <strong>WhatsApp:</strong> <a href="https://wa.me/918652463737" target="_blank" rel="noopener noreferrer">Send a message</a>
         </div>
         <div>
-          <strong>Address:</strong> Shop No 3, Pratapgad CHS, Plot No.37, Sector-34, Near Apna Sahakari Bank, Sector 34, Kamothe-410209
+          <strong>Address:</strong>  Hi Tech Infrastructure, behind Batuk Bhai Jewelers, Khare Town, Dharampeth, Nagpur, Maharashtra 440010
+
+
+
+
         </div>
         <div>
-          <strong>Year of Establishment:</strong> 2010
+          <strong>Year of Establishment:</strong> 2008
+
         </div>
       </div>
       <form className="contactus-form">

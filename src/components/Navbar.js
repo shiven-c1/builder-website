@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-title">
-        Hanuman Real Estate
+        HI-TECH Real Estate
       </div>
       <ul className="navbar-links">
         <li><a href="#home">Home</a></li>
