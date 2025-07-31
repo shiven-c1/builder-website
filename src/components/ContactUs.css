@@ -1,0 +1,59 @@
+.contactus-container {
+  background: #fff;
+  max-width: 600px;
+  margin: 48px auto;
+  padding: 32px 24px;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(26,35,126,0.12);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.contactus-container h2 {
+  text-align: center;
+  color: #1a237e;
+  margin-bottom: 24px;
+}
+
+.contactus-details {
+  margin-bottom: 24px;
+  color: #333;
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+.contactus-details a {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.contactus-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contactus-form input,
+.contactus-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  font-size: 1em;
+  font-family: inherit;
+  resize: none;
+}
+
+.contactus-form button {
+  background: #1a237e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.contactus-form button:hover {
+  background: #3182ce;
+}

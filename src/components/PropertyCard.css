@@ -1,0 +1,93 @@
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.property-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  background: #fafbfc;
+  max-width: 370px;
+  display: inline-block;
+  vertical-align: top;
+  transition: box-shadow 0.2s, transform 0.2s;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  animation: zoomIn 0.8s cubic-bezier(.17,.67,.83,.67);
+}
+
+.property-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.14);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  object-fit: cover;
+  height: 200px;
+  background: #eaeaea;
+}
+
+.property-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.property-details {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 16px;
+}
+
+.property-price {
+  font-size: 1.1rem;
+  color: #3182ce;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.contact-btn {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  border-radius: 8px;
+  background: #3182ce;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(49,130,206,0.08);
+}
+
+.contact-btn.whatsapp {
+  background: #25d366;
+}
+
+.contact-btn:hover {
+  background: #2563eb;
+}
+
+.contact-btn.whatsapp:hover {
+  background: #1ebe57;
+}
