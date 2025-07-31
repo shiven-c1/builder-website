@@ -48,17 +48,3 @@ hanuman-real-estate
    npm start
    ```
 
-## Contact Information
-
-For inquiries, you can reach us at:
-
-- **Phone**: [8652463737](tel:8652463737)
-- **WhatsApp**: [Send a message](https://wa.me/918652463737)
-
-**Address**:  
-Shop No 3, Pratapgad CHS, Plot No.37, Sector-34, Near Apna Sahakari Bank,  
-Sector 34, Kamothe-410209
-
-**Established**: 2010
-
-Thank you for visiting Hanuman Real Estate! We look forward to helping you find your dream property.
